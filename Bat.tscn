@@ -14,3 +14,6 @@ margin_right = 40.0
 margin_bottom = 14.0
 rect_scale = Vector2( 4.84, 3.22222 )
 text = "BAT"
+__meta__ = {
+"_edit_use_anchors_": false
+}
