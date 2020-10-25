@@ -5,3 +5,4 @@ func _ready():
 
 func _on_Button_pressed():
 	get_node("Label").text = "HELLO!"
+	get_tree().call_group("enemies", "player_was_discovered")
