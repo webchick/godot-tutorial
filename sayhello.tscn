@@ -29,4 +29,8 @@ text = "Press Me"
 __meta__ = {
 "_edit_use_anchors_": false
 }
+
+[node name="FrameCount" type="Label" parent="."]
+margin_right = 40.0
+margin_bottom = 14.0
 [connection signal="pressed" from="Button" to="." method="_on_Button_pressed"]
