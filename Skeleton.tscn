@@ -1,0 +1,20 @@
+[gd_scene format=2]
+
+[node name="Node2D" type="Node2D"]
+
+[node name="Skeleton2D" type="Skeleton2D" parent="."]
+
+[node name="Bone2D" type="Bone2D" parent="Skeleton2D"]
+rest = Transform2D( 1, 0, 0, 1, 0, 0 )
+
+[node name="Bone2D2" type="Bone2D" parent="Skeleton2D"]
+scale = Vector2( 0.388967, -7158.56 )
+rest = Transform2D( 0.388967, 0, 0, -7158.56, 0, 0 )
+
+[node name="Label" type="Label" parent="."]
+margin_right = 40.0
+margin_bottom = 14.0
+text = "SKELETON"
+__meta__ = {
+"_edit_use_anchors_": false
+}
