@@ -1,13 +1,25 @@
 [gd_scene format=2]
 
 [node name="Panel" type="Panel"]
-margin_right = 40.0
-margin_bottom = 40.0
+margin_right = 153.0
+margin_bottom = 118.0
 
 [node name="Label" type="Label" parent="."]
-margin_right = 40.0
-margin_bottom = 14.0
+margin_left = 34.0
+margin_top = 27.0
+margin_right = 121.0
+margin_bottom = 41.0
+text = "This is a label"
+__meta__ = {
+"_edit_use_anchors_": false
+}
 
 [node name="Button" type="Button" parent="."]
-margin_right = 12.0
-margin_bottom = 20.0
+margin_left = 45.0
+margin_top = 60.0
+margin_right = 116.0
+margin_bottom = 97.0
+text = "Press Me"
+__meta__ = {
+"_edit_use_anchors_": false
+}
