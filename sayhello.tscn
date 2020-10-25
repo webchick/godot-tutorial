@@ -3,7 +3,9 @@
 [ext_resource path="res://sayhello.gd" type="Script" id=1]
 [ext_resource path="res://FrameCount.gd" type="Script" id=2]
 
-[node name="Panel" type="Panel"]
+[node name="Panel" type="Panel" groups=[
+"enemies",
+]]
 margin_left = 3.0
 margin_right = 166.0
 margin_bottom = 143.0
