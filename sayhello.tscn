@@ -1,10 +1,12 @@
-[gd_scene load_steps=2 format=2]
+[gd_scene load_steps=3 format=2]
 
 [ext_resource path="res://sayhello.gd" type="Script" id=1]
+[ext_resource path="res://FrameCount.gd" type="Script" id=2]
 
 [node name="Panel" type="Panel"]
-margin_right = 153.0
-margin_bottom = 118.0
+margin_left = 3.0
+margin_right = 166.0
+margin_bottom = 143.0
 script = ExtResource( 1 )
 __meta__ = {
 "_edit_use_anchors_": false
@@ -31,6 +33,9 @@ __meta__ = {
 }
 
 [node name="FrameCount" type="Label" parent="."]
-margin_right = 40.0
-margin_bottom = 14.0
+margin_left = 49.0
+margin_top = 117.0
+margin_right = 117.0
+margin_bottom = 131.0
+script = ExtResource( 2 )
 [connection signal="pressed" from="Button" to="." method="_on_Button_pressed"]
