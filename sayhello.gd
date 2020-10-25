@@ -13,6 +13,8 @@ func _on_Button_pressed():
 	s.set_rotation(30)
 	add_child(s)
 
+	get_node("Label").free()
+
 #func _notification(what):
 #	match what:
 #		NOTIFICATION_READY:
